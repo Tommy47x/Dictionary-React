@@ -9,7 +9,6 @@ function App() {
   const handleSubmit = (event) => {
     event.preventDefault();
     setSavedWords([...savedWords, text]);
-    console.log(text);
   };
 
   const handleChange = (event) => {
