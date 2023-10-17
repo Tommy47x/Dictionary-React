@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.js": "/github.io/Dictionary-React/static/js/main.127bc6f5.chunk.js",
+    "main.js.map": "/github.io/Dictionary-React/static/js/main.127bc6f5.chunk.js.map",
+    "runtime-main.js": "/github.io/Dictionary-React/static/js/runtime-main.0a0e838d.js",
+    "runtime-main.js.map": "/github.io/Dictionary-React/static/js/runtime-main.0a0e838d.js.map",
+    "static/css/2.6f2db2d8.chunk.css": "/github.io/Dictionary-React/static/css/2.6f2db2d8.chunk.css",
+    "static/js/2.138768b9.chunk.js": "/github.io/Dictionary-React/static/js/2.138768b9.chunk.js",
+    "static/js/2.138768b9.chunk.js.map": "/github.io/Dictionary-React/static/js/2.138768b9.chunk.js.map",
+    "static/js/3.d80a6206.chunk.js": "/github.io/Dictionary-React/static/js/3.d80a6206.chunk.js",
+    "static/js/3.d80a6206.chunk.js.map": "/github.io/Dictionary-React/static/js/3.d80a6206.chunk.js.map",
+    "index.html": "/github.io/Dictionary-React/index.html",
+    "precache-manifest.3e7444da674fd2b46cc141d1999923fd.js": "/github.io/Dictionary-React/precache-manifest.3e7444da674fd2b46cc141d1999923fd.js",
+    "service-worker.js": "/github.io/Dictionary-React/service-worker.js",
+    "static/css/2.6f2db2d8.chunk.css.map": "/github.io/Dictionary-React/static/css/2.6f2db2d8.chunk.css.map",
+    "static/js/2.138768b9.chunk.js.LICENSE.txt": "/github.io/Dictionary-React/static/js/2.138768b9.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0a0e838d.js",
+    "static/css/2.6f2db2d8.chunk.css",
+    "static/js/2.138768b9.chunk.js",
+    "static/js/main.127bc6f5.chunk.js"
+  ]
+}
