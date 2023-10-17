@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./App.css";
 
 function App() {
   const [text, setText] = useState("");
@@ -89,14 +90,7 @@ function App() {
         >
           {message || "Enter a word to verify."}
         </div>
-
-        <style>
-          {`
-          body {
-            background-color: grey;
-          }
-        `}
-        </style>
+        <link rel="css" href="App.css"></link>
       </div>
     </div>
   );
