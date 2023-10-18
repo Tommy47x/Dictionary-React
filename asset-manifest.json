@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/Dictionary-React/static/css/main.0fd86bb2.chunk.css",
-    "main.js": "/Dictionary-React/static/js/main.0dcec943.chunk.js",
-    "main.js.map": "/Dictionary-React/static/js/main.0dcec943.chunk.js.map",
+    "main.css": "/Dictionary-React/static/css/main.b6a0edb4.chunk.css",
+    "main.js": "/Dictionary-React/static/js/main.ccfabeba.chunk.js",
+    "main.js.map": "/Dictionary-React/static/js/main.ccfabeba.chunk.js.map",
     "runtime-main.js": "/Dictionary-React/static/js/runtime-main.8452f0e8.js",
     "runtime-main.js.map": "/Dictionary-React/static/js/runtime-main.8452f0e8.js.map",
     "static/css/2.6f2db2d8.chunk.css": "/Dictionary-React/static/css/2.6f2db2d8.chunk.css",
-    "static/js/2.138768b9.chunk.js": "/Dictionary-React/static/js/2.138768b9.chunk.js",
-    "static/js/2.138768b9.chunk.js.map": "/Dictionary-React/static/js/2.138768b9.chunk.js.map",
+    "static/js/2.d8e23c52.chunk.js": "/Dictionary-React/static/js/2.d8e23c52.chunk.js",
+    "static/js/2.d8e23c52.chunk.js.map": "/Dictionary-React/static/js/2.d8e23c52.chunk.js.map",
     "static/js/3.4202c52c.chunk.js": "/Dictionary-React/static/js/3.4202c52c.chunk.js",
     "static/js/3.4202c52c.chunk.js.map": "/Dictionary-React/static/js/3.4202c52c.chunk.js.map",
     "index.html": "/Dictionary-React/index.html",
-    "precache-manifest.18460d94ae992548eb8753d114540aa0.js": "/Dictionary-React/precache-manifest.18460d94ae992548eb8753d114540aa0.js",
+    "precache-manifest.9cf36fffdaa75b9fad733830fa081f0d.js": "/Dictionary-React/precache-manifest.9cf36fffdaa75b9fad733830fa081f0d.js",
     "service-worker.js": "/Dictionary-React/service-worker.js",
     "static/css/2.6f2db2d8.chunk.css.map": "/Dictionary-React/static/css/2.6f2db2d8.chunk.css.map",
-    "static/css/main.0fd86bb2.chunk.css.map": "/Dictionary-React/static/css/main.0fd86bb2.chunk.css.map",
-    "static/js/2.138768b9.chunk.js.LICENSE.txt": "/Dictionary-React/static/js/2.138768b9.chunk.js.LICENSE.txt"
+    "static/css/main.b6a0edb4.chunk.css.map": "/Dictionary-React/static/css/main.b6a0edb4.chunk.css.map",
+    "static/js/2.d8e23c52.chunk.js.LICENSE.txt": "/Dictionary-React/static/js/2.d8e23c52.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.8452f0e8.js",
     "static/css/2.6f2db2d8.chunk.css",
-    "static/js/2.138768b9.chunk.js",
-    "static/css/main.0fd86bb2.chunk.css",
-    "static/js/main.0dcec943.chunk.js"
+    "static/js/2.d8e23c52.chunk.js",
+    "static/css/main.b6a0edb4.chunk.css",
+    "static/js/main.ccfabeba.chunk.js"
   ]
 }
