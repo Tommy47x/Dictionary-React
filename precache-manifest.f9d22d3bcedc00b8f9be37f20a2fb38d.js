@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f539862f559b745037b38073513d8739",
+    "revision": "40abd8aa1138ac9937e471b1d99c8d44",
     "url": "/Dictionary-React/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Dictionary-React/static/css/2.6f2db2d8.chunk.css"
   },
   {
-    "revision": "663886b14d65b32340a4",
-    "url": "/Dictionary-React/static/css/main.b6a0edb4.chunk.css"
+    "revision": "a6b7aec14eb08c7e16d0",
+    "url": "/Dictionary-React/static/css/main.22304818.chunk.css"
   },
   {
     "revision": "bcd956fc32133321d7eb",
@@ -24,8 +24,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Dictionary-React/static/js/3.4202c52c.chunk.js"
   },
   {
-    "revision": "663886b14d65b32340a4",
-    "url": "/Dictionary-React/static/js/main.ccfabeba.chunk.js"
+    "revision": "a6b7aec14eb08c7e16d0",
+    "url": "/Dictionary-React/static/js/main.519906f9.chunk.js"
   },
   {
     "revision": "041e1a81ef982dac09dc",
