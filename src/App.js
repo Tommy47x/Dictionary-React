@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import Save from './Save';
 import './App.css';
 
-
 function App() {
   const [savedWords, setSavedWords] = useState([]);
   const [verificationText, setVerificationText] = useState('');
@@ -67,3 +66,5 @@ function App() {
 }
 
 export default App;
+
+
