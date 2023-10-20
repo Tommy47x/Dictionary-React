@@ -1,27 +1,98 @@
 import React, { useState } from 'react';
-import Save from './Save';
 import './App.css';
 
-function App() {
-  const [savedWords, setSavedWords] = useState([]);
+function Save(props) {
+  const [text, setText] = useState('');
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    props.onSave(text);
+    setText('');
+  };
+
+  const handleChange = (event) => {
+    setText(event.target.value);
+  };
+
+  return (
+    <form onSubmit={handleSubmit}>
+      <div className="form-group">
+        <label htmlFor="exampleFormControlInput1">Save the word</label>
+        <input
+          type="text"
+          className="form-control"
+          id="exampleFormControlInput1"
+          placeholder="Enter a word"
+          value={text}
+          onChange={handleChange}
+        />
+      </div>
+      <ul></ul>
+      <button type="submit" className="btn btn-primary">
+        Save
+      </button>
+    </form>
+  );
+}
+
+function Verify(props) {
   const [verificationText, setVerificationText] = useState('');
   const [message, setMessage] = useState('');
-  const [showMessage, setShowMessage] = useState(false); // Add a new state variable to track whether to show the message
+  const [showMessage, setShowMessage] = useState(false);
 
   const handleVerificationChange = (event) => {
     setVerificationText(event.target.value);
-    setShowMessage(false); // Reset the showMessage state variable when the input field changes
+    setShowMessage(false);
   };
 
   const handleVerificationSubmit = (event) => {
     event.preventDefault();
-    setShowMessage(true); // Set the showMessage state variable to true when the Verify button is pressed
-    if (savedWords.includes(verificationText)) {
+    setShowMessage(true);
+    if (props.savedWords.includes(verificationText)) {
       setMessage('The word is in the dictionary!');
     } else {
       setMessage('The word is not in the dictionary.');
     }
   };
+
+  return (
+    <div>
+      <form onSubmit={handleVerificationSubmit}>
+        <div className="form-group">
+          <label htmlFor="exampleFormControlInput2">
+            Verify if the word is in the dictionary
+          </label>
+          <input
+            type="text"
+            className="form-control"
+            id="exampleFormControlInput2"
+            placeholder="Enter a word"
+            value={verificationText}
+            onChange={handleVerificationChange}
+          />
+        </div>
+        <ul></ul>
+        <button type="submit" className="btn btn-primary">
+          Verify
+        </button>
+      </form>
+      {showMessage && (
+        <div
+          className={`alert ${props.savedWords.includes(verificationText)
+            ? 'alert-success'
+            : 'alert-danger'
+            } mt-3`}
+          role="alert"
+        >
+          {message}
+        </div>
+      )}
+    </div>
+  );
+}
+
+function App() {
+  const [savedWords, setSavedWords] = useState([]);
 
   const handleSave = (word) => {
     setSavedWords([...savedWords, word]);
@@ -35,36 +106,12 @@ function App() {
           This project has been built using React and Bootstrap.
         </p>
         <hr className="my-4" />
-        <Save onSave={handleSave} savedWords={savedWords} />
+        <Save onSave={handleSave} />
         <hr className="my-4" />
-        <form onSubmit={handleVerificationSubmit}>
-          <div className="form-group">
-            <label htmlFor="exampleFormControlInput2">
-              Verify if the word is in the dictionary
-            </label>
-            <input
-              type="text"
-              className="form-control"
-              id="exampleFormControlInput2"
-              placeholder="Enter a word"
-              value={verificationText}
-              onChange={handleVerificationChange}
-            />
-          </div>
-          <button type="submit" className="btn btn-primary">
-            Verify
-          </button>
-        </form>
-        {showMessage && ( // Only render the message if showMessage is true
-          <div className={`alert ${savedWords.includes(verificationText) ? 'alert-success' : 'alert-danger'} mt-3`} role="alert">
-            {message}
-          </div>
-        )}
+        <Verify savedWords={savedWords} />
       </div>
     </div>
   );
 }
 
 export default App;
-
-
